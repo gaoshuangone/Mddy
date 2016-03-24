@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders
+END
+SendOrderViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ios_fhl_shop/!svn/ver/51/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/SendOrderViewController.m
+END
+InputAddressNODataView.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputAddressNODataView.m
+END
+OrderDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/OrderDetailViewController.h
+END
+InputAddressViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ios_fhl_shop/!svn/ver/272/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputAddressViewController.xib
+END
+OrderDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/OrderDetailViewController.m
+END
+InputAddressViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputAddressViewController.h
+END
+CouriesTableViewCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/CouriesTableViewCell.xib
+END
+CouriesViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ios_fhl_shop/!svn/ver/1034/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/CouriesViewController.h
+END
+InputAddressViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputAddressViewController.m
+END
+InputAddressssCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputAddressssCell.h
+END
+CouriesTableViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ios_fhl_shop/!svn/ver/1034/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/CouriesTableViewCell.h
+END
+CouriesViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ios_fhl_shop/!svn/ver/1036/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/CouriesViewController.m
+END
+InputAddressssCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputAddressssCell.m
+END
+CouriesTableViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ios_fhl_shop/!svn/ver/1034/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/CouriesTableViewCell.m
+END
+InputAddDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputAddDetailViewController.h
+END
+ButtonDetailH5.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/ButtonDetailH5.h
+END
+InputMapViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputMapViewController.h
+END
+InputAddDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputAddDetailViewController.m
+END
+CouriesRowTableViewCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/CouriesRowTableViewCell.xib
+END
+ButtonDetailH5.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/ButtonDetailH5.m
+END
+InputMapViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputMapViewController.m
+END
+CouriesRowTableViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ios_fhl_shop/!svn/ver/1034/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/CouriesRowTableViewCell.h
+END
+MapViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ios_fhl_shop/!svn/ver/794/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/MapViewController.xib
+END
+CouriesRowTableViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ios_fhl_shop/!svn/ver/1034/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/CouriesRowTableViewCell.m
+END
+MapViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/MapViewController.h
+END
+OrderErrorDetailkViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/ios_fhl_shop/!svn/ver/272/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/OrderErrorDetailkViewController.xib
+END
+SoonSendOrderViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ios_fhl_shop/!svn/ver/272/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/SoonSendOrderViewController.xib
+END
+SendOrderViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ios_fhl_shop/!svn/ver/51/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/SendOrderViewController.xib
+END
+MapViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/MapViewController.m
+END
+OrderErrorDetailkViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ios_fhl_shop/!svn/ver/794/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/OrderErrorDetailkViewController.h
+END
+SoonSendOrderViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/SoonSendOrderViewController.h
+END
+SendOrderViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ios_fhl_shop/!svn/ver/51/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/SendOrderViewController.h
+END
+OrderErrorDetailkViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/OrderErrorDetailkViewController.m
+END
+InputAddressNODataView.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/InputAddressNODataView.h
+END
+OrderDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ios_fhl_shop/!svn/ver/272/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/OrderDetailViewController.xib
+END
+SoonSendOrderViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ios_fhl_shop/!svn/ver/1251/trunk/ios_fhl_shop/merchant/merchant/Classes/Controllers/Orders/SoonSendOrderViewController.m
+END

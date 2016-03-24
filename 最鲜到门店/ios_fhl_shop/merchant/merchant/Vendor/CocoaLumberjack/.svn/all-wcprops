@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack
+END
+DDLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDLog.h
+END
+DDASLLogger.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDASLLogger.m
+END
+DDFileLogger.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDFileLogger.m
+END
+DDLog+LOGV.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDLog+LOGV.h
+END
+DDTTYLogger.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDTTYLogger.m
+END
+DDLog.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDLog.m
+END
+DDLogMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDLogMacros.h
+END
+DDAbstractDatabaseLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDAbstractDatabaseLogger.h
+END
+DDAbstractDatabaseLogger.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDAbstractDatabaseLogger.m
+END
+DDASLLogCapture.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDASLLogCapture.h
+END
+DDAssertMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDAssertMacros.h
+END
+DDLegacyMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDLegacyMacros.h
+END
+DDASLLogCapture.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDASLLogCapture.m
+END
+CocoaLumberjack.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/CocoaLumberjack.h
+END
+DDASLLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDASLLogger.h
+END
+DDFileLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDFileLogger.h
+END
+DDTTYLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ios_fhl_shop/!svn/ver/889/trunk/ios_fhl_shop/merchant/merchant/Vendor/CocoaLumberjack/DDTTYLogger.h
+END

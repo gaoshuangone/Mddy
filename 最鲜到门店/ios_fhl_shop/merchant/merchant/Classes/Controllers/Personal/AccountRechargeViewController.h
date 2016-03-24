@@ -1,0 +1,13 @@
+//
+//  AccountRechargeViewController.h
+//  merchant
+//
+//  Created by gs on 15/5/19.
+//  Copyright (c) 2015年 JUEWEI. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AccountRechargeViewController : BaseTableViewController
+
+@end

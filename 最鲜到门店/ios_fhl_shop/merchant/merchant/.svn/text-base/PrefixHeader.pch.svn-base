@@ -1,0 +1,176 @@
+//
+//  PrefixHeader.pch
+//  merchant
+//
+//  Created by panume on 14-11-2.
+//  Copyright (c) 2014年 JUEWEI. All rights reserved.
+//
+
+#import <Availability.h>
+
+
+#ifndef merchant_PrefixHeader_pch
+//#define merchant_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "UIColor+Hex.h"
+    #import "UIImage+Hex.h"
+    #import "AppDelegate.h"
+    #import "BaseViewController.h"
+    #import "BaseTableViewController.h"
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "API.h"
+#import "UIColor+Hex.h"
+#import "UIImage+Hex.h"
+#import "UIManager.h"
+#import "Macro.h"
+#import "AppManager.h"
+#import "CGeneralFunction.h"
+#import "CAnalyzeResult.h"
+#import "Macro.h"
+#import "AppDelegate.h"
+#import "Config.h"
+#import "UIImageView+AFNetworking.h"
+#import "User.h"
+#import"CommonUtils.h"
+#import"CommonUtils+Date.h"
+#import "NSObject+Convert.h"
+
+#import"SelfUser.h"
+#import "UIImageView+Circle.h"
+#import "Constants.h"
+#import"MBProgressHUD.h"
+#import"MapViewController.h"
+#import "UIView+convenience.h"
+#import "CommonUtils+Views.h"
+#ifdef DEBUG
+#import "CocoaLumberjack.h"
+#endif
+#endif
+
+#ifdef DEBUG
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+//#else
+//static const DDLogLevel ddLogLevel = DDLogLevelOff;
+#endif
+
+#ifdef DEBUG
+#ifndef TEST_XCODE_COLORS
+#define TEST_XCODE_COLORS
+#endif
+//#else
+//#ifndef TEST_XCODE_COLORS
+//#define TEST_XCODE_COLORS
+//#endif
+#endif
+
+#define LOGIN_NOTIFICATION                      @"LoginNotification"
+#define HIT_HEART_NOTIFICATION                  @"HitHeartNotification"
+#define REACHABILITY_RECOVE_NOTIFICATION        @"ReachabilityRecoveNotification"
+#define MBK_PERMISSION_SUCCESS_NOTIFICATION     @"MBKPermissionSuccessNotification"
+#define WIN_HEI_4   480
+#define WIN_HEI_6   667
+#define WIN_WEI_6   375
+
+#define Have NO
+/*
+ * 日志开关
+ */
+#ifdef DEBUG
+#else
+#define NSLog(...) {};
+#endif
+//
+//#define NSlog()  NSlog
+/*
+ *  屏幕宽高
+ */
+#define WINDOW_WIDTH                         [[UIScreen mainScreen] bounds].size.width
+#define WINDOW_HEIGHT                        [[UIScreen mainScreen] bounds].size.height
+
+/*
+ *  iOS版本
+ */
+#define IOS_VERSION_LARGE_OR_EQUAL(v)        [[[UIDevice currentDevice] systemVersion] floatValue] >= v ? YES : NO
+#define IOS_VERSION_LOWER_THAN(v)            [[[UIDevice currentDevice] systemVersion] floatValue] < v ? YES : NO
+
+/*
+ *  MD5
+ */
+
+#define MD5(str)                            [AppManager md5:str]
+
+/*
+ *  RGB
+ */
+
+#define UICOLOR(R, G, B, A)[UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+
+
+//单例的宏
+
+#define DEFINE_SINGLETON_FOR_HEADER(className) \
+\
++(className* )shared##className;
+
+#define DEFINE_SINGLETON_FOR_CLASS(className) \
+\
++ (className *)shared##className { \
+static className *shared##className = nil; \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+@synchronized(self){ \
+shared##className = [[self alloc] init]; \
+} \
+}); \
+return shared##className; \
+}
+/*
+ *  判断当前机型
+ */
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+
+/*
+ *  屏幕与6的比例
+ */
+
+#define iphone4H_6H  0.776
+#define iphone5H_6H  0.919
+
+#define iphone4W_5W_6W  0.85
+#define iphone4W_5W_6PlusW  0.772
+
+
+
+
+/*
+ *  屏幕坐标适配 （Y坐标不变）
+ */
+#define CGRectMakeIphone(x_CGFloat,y_CGFloat,wide_CGFloat,height_CGFloat) CGRectMake(iPhone4? iphone4H_6H*x_CGFloat:iPhone5? iphone5H_6H*x_CGFloat:x_CGFloat, y_CGFloat, iPhone4? iphone4H_6H*wide_CGFloat:iPhone5? iphone5H_6H*wide_CGFloat:wide_CGFloat, iPhone4? iphone4H_6H*height_CGFloat:iPhone5? iphone5H_6H*height_CGFloat:height_CGFloat)
+
+#define UIFont(fontSize_CGFloat) [UIFont systemFontOfSize: iPhone4?fontSize_CGFloat*iphone4W_5W_6W:iPhone5?fontSize_CGFloat*iphone4W_5W_6W:fontSize_CGFloat]
+
+#define UIFontHome(fontSize_CGFloat)  [UIFont systemFontOfSize:iPhone4? iphone5H_6H*fontSize_CGFloat*0.9:iPhone5? iphone5H_6H*fontSize_CGFloat*0.9:fontSize_CGFloat]
+
+
+
+#define UIFontHomeDetail(fontSize_CGFloat)  [UIFont systemFontOfSize:iPhone4? iphone5H_6H*fontSize_CGFloat*1.08:iPhone5? iphone5H_6H*fontSize_CGFloat*1.08:fontSize_CGFloat]
+
+//iphone5或iphone6的放大显示模式
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+//iphone6的标准显示模式
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)//是否为iphone6 4.7
+#define iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)//是否为iphone6 5.7
+#define iphone6_6P_isYES   iPhone6||iPhone6Plus//是否为iphone6
+#define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
